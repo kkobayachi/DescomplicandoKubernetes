@@ -757,7 +757,7 @@ Feito isso, execute o seguinte comando:
 Efetue *logoff* e *login* para carregar o *autocomplete*. Caso não deseje, execute:
 
 ```
-# source < (kubectl completion bash)
+# echo 'source <(kubectl completion bash)' >>~/.bashrc
 ```
 
 ## Verificando os namespaces e pods
